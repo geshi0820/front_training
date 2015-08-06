@@ -1,0 +1,62 @@
+body {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.container {
+  margin: 100px auto;
+  width: 960px;
+}
+
+.tabmenu{
+  padding-left: 200px;
+}
+
+.clearfix:after{
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.explanation_box{
+  margin: 0;
+}
+
+.tab{
+  width: 150px;
+  margin-left: 10px;
+  border-radius: 5px 5px 0 0 ;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.contents{
+  padding : 30px;
+  background-color: #d3d3d3;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 0 0 8px;
+}
+
+.explanation{
+  margin: 24px
+}
+
+.active{
+  color: black;
+  background-color: #d3d3d3;
+}
+
+.tab:hover{
+  background-color: #d3d3d3;
+  color: black;
+}
