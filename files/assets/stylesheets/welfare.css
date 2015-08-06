@@ -1,0 +1,30 @@
+.box_row{
+  clear: both;
+}
+
+.box{
+  float: left;
+  margin: 8px;
+}
+
+.explanation_box{
+}
+
+.title{
+  color: #ff0099;
+  margin: 8px 0 8px 0;
+}
+
+.explanation{
+  margin: 8px 0 8px 0;
+  color: #999;
+  font-size: 10px;
+}
+
+.thumnail{
+}
+
+.thumnail img{
+  width: 300px;
+  height: 200px;
+}
